@@ -1,5 +1,8 @@
 # 🎾 Tennis Central: Data-Driven Store Expansion
 
+![4910af77-9990-434c-bc84-3e678ca010a1](https://github.com/user-attachments/assets/62ed19e5-f4b0-4826-a3a7-0e0164e99cca)
+
+
 ---
 
 ## 📖 Table of Contents
@@ -49,7 +52,7 @@ The dataset used includes historical sales records from Tennis Central’s in-st
 
 ## 🧹 Data Preparation Steps
 I addressed these data issues by:
-- Removing unnecessary columns (`Sale Completed Date`, `Customer Type`).
+- Removing unnecessary columns ('Sale Completed Date', 'Customer Type').
 - Standardizing column names for clarity.
 - Splitting date and time into separate columns.
 - Correcting data types (numeric and datetime formats).
@@ -58,21 +61,19 @@ I addressed these data issues by:
 ## 🐍 Python Data Cleaning
 In Python (Pandas), I performed:
 - Removal of irrelevant columns.
-- Renaming columns (`Customer_ID`, `Item_Description`, `Quantity_Sold`, `Total_Sales`).
-- Splitting `Sale Completed Time` into separate `Date_Of_Sale` and `Time_Of_Sale`.
+- Renaming columns ('Customer_ID', 'Item_Description', 'Quantity_Sold', 'Total_Sales').
+- Splitting 'Sale Completed Time' into separate 'Date_Of_Sale' and 'Time_Of_Sale'.
 - Converting data types for accurate analysis.
 - Removing null values and incorrect or invalid customer IDs.
-
-📌 *(Add screenshots from Jupyter Notebook here)*
 
 ## 🛠️ Power BI Data Preparation
 Using Power Query in Power BI, I:
 - Loaded and cleaned CSV data.
-- Created new informative columns such as `Brand`, `Category`, `Day_of_Week`, `IsWeekend`, `Repeat_Customer`, and `Returned_Item`.
+- Created new informative columns such as 'Brand', 'Category', 'Day_of_Week', 'IsWeekend', 'Repeat_Customer', and 'Returned_Item'.
 - Built dimension tables (Date, Product, Customer) and one fact table (Sales).
 - Structured the data using a clear star schema for better analytical efficiency.
 
-📌 *(Insert image of Star Schema model from Power BI here)*
+![Screenshot 2025-04-24 163153](https://github.com/user-attachments/assets/de435922-7e6b-4d7c-82d6-574989617644)
 
 ## 🌐 Semantic Model
 I established clear relationships between:
@@ -105,7 +106,7 @@ The dashboard built in Power BI consists of:
 7. **Top Returns:**
    - Identification of products frequently returned, highlighting areas needing improvement.
 
-📌 *(Include screenshots of each dashboard page here)*
+![Screenshot 2025-04-16 225443](https://github.com/user-attachments/assets/000f4536-a027-467c-b728-5f39dd5afcb2)
 
 ## ✅ Answers to Analytical Questions
 - Clearly identified top revenue categories (Strings & Services, Rackets).
